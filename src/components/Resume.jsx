@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-// import pdf from "../assets/Naufil.Resume.PDF";
+import pdf from "../assets/Naufil'sResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import NavBar from "./NavBar"
 import Resume from "../assets/img/resume.PNG"
@@ -20,7 +20,7 @@ function ResumeNew() {
         <Row className="animate__animated animate__fadeInDown" style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            // href={pdf}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -36,7 +36,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative", marginBottom: "5rem" }}>
           <Button
             variant="primary"
-            // href={pdf}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
