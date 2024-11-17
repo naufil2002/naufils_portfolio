@@ -7,12 +7,20 @@ import projImg2 from "../assets/img/project-img2.png"
 import projImg3 from "../assets/img/project-img3.png"
 import projImg4 from "../assets/img/project-img4.png"
 import projImg5 from "../assets/img/project-img5.png"
+import projImg6 from "../assets/img/project-img6.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import NavBar from "./NavBar";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Click Me! for DEMO",
+      description: "(Click for DEMO)",
+      imgUrl: projImg6,
+      link: "https://movie-search-app-nu-six.vercel.app/",
+      name: "MovieFlix"
+    },
     {
       title: "Click Me! for DEMO",
       description: "(Click for DEMO)",
@@ -46,7 +54,7 @@ const Projects = () => {
       description: "Oops! I'm not live",
       imgUrl: projImg5,
       name: "AnyWhere Hotels"
-    },
+    }
   ];
 
   return (
