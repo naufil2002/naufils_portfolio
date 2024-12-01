@@ -8,12 +8,20 @@ import projImg3 from "../assets/img/project-img3.png"
 import projImg4 from "../assets/img/project-img4.png"
 import projImg5 from "../assets/img/project-img5.png"
 import projImg6 from "../assets/img/project-img6.png"
+import projImg7 from "../assets/img/project-img7.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import NavBar from "./NavBar";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Click Me! for DEMO",
+      description: "(Click for DEMO)",
+      imgUrl: projImg7,
+      link: "https://eco-mart-chi.vercel.app/",
+      name: "EcoMart"
+    },
     {
       title: "Click Me! for DEMO",
       description: "(Click for DEMO)",
