@@ -21,7 +21,7 @@ const Projects = () => {
       description: "(Click for DEMO)",
       imgUrl: projImg8,
       link: "https://drive.google.com/file/d/1iDgO8bkFRWrIGWuZE7UFx7kvk6CgkPhx/view?usp=drivesdk",
-      name: "EcoMart"
+      name: "Seed Bank"
     },
     {
       title: "Click Me! for DEMO",
