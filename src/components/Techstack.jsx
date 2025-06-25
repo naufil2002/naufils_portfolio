@@ -7,14 +7,18 @@ import {
   DiReact,
   DiGit,
   DiNodejs,
-  DiMongodb
+  DiMongodb,
+  DiJava
 } from "react-icons/di";
 import {
   SiTailwindcss,
   SiBootstrap,
   SiGithub,
-  SiExpress
+  SiExpress,
+  SiOracle,
+  SiC
 } from "react-icons/si";
+import { FaDatabase } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -38,10 +42,16 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <SiOracle />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDatabase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -51,6 +61,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
       </Col>
     </Row>
   );

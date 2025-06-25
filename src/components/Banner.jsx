@@ -35,8 +35,7 @@ const Banner = () => {
                             options={{
                               strings: [
                                 "Web Developer.",
-                                "Front End Developer.",
-                                "Exploring MERN Stack / Full Stack Development.",
+                                "Full-Stack Developer.",
                                 "Freelancer.",
                               ],
                               autoStart: true,
@@ -96,7 +95,7 @@ const Banner = () => {
                       <h5 className="mt-5 Intro2">
                         I am fluent in classics like{" "}
                         <span className="purple fst-italic">
-                          JavaScript and its library ReactJS
+                          Java, JavaScript and its library ReactJS
                         </span>
                       </h5>
                       <h5 className="mt-5 Intro2">
@@ -106,7 +105,7 @@ const Banner = () => {
                         </span>{" "}
                         and also in areas related to{" "}
                         <span className="purple fst-italic">
-                          MERN Stack / Full Stack.
+                          Java Full Stack / MERN Stack.
                         </span>
                       </h5>
                     </div>

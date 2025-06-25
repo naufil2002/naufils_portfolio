@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiVisualstudiocode, SiGithub, SiWindows } from "react-icons/si";
+import { SiVisualstudiocode, SiGithub, SiWindows, SiVercel, SiEclipseide } from "react-icons/si";
 
 function Toolstack() {
   return (
@@ -13,6 +13,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons" title="GitHub">
         <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="GitHub">
+        <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="GitHub">
+        <SiEclipseide />
       </Col>
     </Row>
   );

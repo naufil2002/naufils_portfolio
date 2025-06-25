@@ -9,12 +9,20 @@ import projImg4 from "../assets/img/project-img4.png"
 import projImg5 from "../assets/img/project-img5.png"
 import projImg6 from "../assets/img/project-img6.png"
 import projImg7 from "../assets/img/project-img7.png"
+import projImg8 from "../assets/img/project-img8.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import NavBar from "./NavBar";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Click Me! for DEMO",
+      description: "(Click for DEMO)",
+      imgUrl: projImg8,
+      link: "https://drive.google.com/file/d/1iDgO8bkFRWrIGWuZE7UFx7kvk6CgkPhx/view?usp=drivesdk",
+      name: "EcoMart"
+    },
     {
       title: "Click Me! for DEMO",
       description: "(Click for DEMO)",
