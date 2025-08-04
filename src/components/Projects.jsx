@@ -10,12 +10,23 @@ import projImg5 from "../assets/img/project-img5.png"
 import projImg6 from "../assets/img/project-img6.png"
 import projImg7 from "../assets/img/project-img7.png"
 import projImg8 from "../assets/img/project-img8.png"
+import warsiroofing from "../assets/img/warsirroofing.png"
+import myvillas from "../assets/img/myvillas.png"
+import hms from "../assets/img/hms.png"
+import wht from "../assets/img/webhubtechnologies.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import NavBar from "./NavBar";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Click Me! for DEMO",
+      description: "(Click for DEMO)",
+      imgUrl: hms,
+      link: "https://hospital-management-system-frontend-orpin.vercel.app/",
+      name: "Hospital Management System"
+    },
     {
       title: "Click Me! for DEMO",
       description: "(Click for DEMO)",
@@ -26,9 +37,30 @@ const Projects = () => {
     {
       title: "Click Me! for DEMO",
       description: "(Click for DEMO)",
+      imgUrl: wht,
+      link: "https://www.webhubtechnologies.in",
+      name: "Web Hub Technologies"
+    },
+    {
+      title: "Click Me! for DEMO",
+      description: "(Click for DEMO)",
+      imgUrl: myvillas,
+      link: "https://www.myvillas.in",
+      name: "My Villas"
+    },
+    {
+      title: "Click Me! for DEMO",
+      description: "(Click for DEMO)",
       imgUrl: projImg7,
       link: "https://eco-mart-chi.vercel.app/",
       name: "EcoMart"
+    },
+    {
+      title: "Click Me! for DEMO",
+      description: "(Click for DEMO)",
+      imgUrl: warsiroofing,
+      link: "https://www.warsiroofing.in",
+      name: "Warsi Roofing"
     },
     {
       title: "Click Me! for DEMO",
